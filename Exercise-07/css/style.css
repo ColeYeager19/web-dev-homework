@@ -1,0 +1,38 @@
+body {
+  background-color:gray;
+  font-family: 'Merriweather', serif;
+  padding:5px;
+}
+
+.text {
+  background-color: white;
+  color: gray;
+  padding: 5px;
+  line-height: 2em;
+}
+
+p:first-of-type::first-letter {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+  font-weight: 700;
+  color: rgb(11, 44, 126);
+}
+
+a {
+  background-color: rgb(11, 44, 126);
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:active {
+  background-color: #999999;
+  color: rgb(11, 44, 126);
+}
